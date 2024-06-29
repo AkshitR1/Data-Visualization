@@ -1,0 +1,14 @@
+Time of Occurrence (TIME OCC): The time at which crimes occur is recorded in 24-hour military time, with values ranging from 1 to 2359. The mean occurrence time is around 1334 hours (or 1:34 PM), indicating a relatively even distribution throughout the day.
+
+Geographic Area (AREA): The dataset includes incidents from 21 different geographic areas, each corresponding to a specific LAPD community police station. The area IDs range from 1 to 21.
+
+Report District Number (Rpt Dist No): This four-digit code represents sub-areas within each geographic area. The district numbers range from 101 to 2199.
+
+Crime Codes (Crm Cd and Crm Cd Desc): The primary crime code (Crm Cd) identifies the type of crime committed, ranging from 110 to 956. The dataset includes descriptions of these codes, such as "Vehicle - Stolen" or "Burglary from Vehicle."
+Victim Age (Vict Age): Victim ages range from -4 to 120 years, with an average age of around 30 years. The presence of negative ages indicates data entry errors or anomalies that need addressing.
+
+Premises Code (Premis Cd): This code represents the type of location where the crime occurred, with values ranging from 101 to 974.
+
+Weapon Used Code (Weapon Used Cd): Approximately 35% of the incidents specify a weapon used, with a mean code value of 362.56, suggesting various types of weapons used in the crimes.
+
+Latitude (LAT) and Longitude (LON): The geographic coordinates are recorded for each incident, with latitude values ranging from 0 to 34.3343 and longitude values from -118.6676 to 0. The mean latitude and longitude are 33.96 and -117.97, respectively. Notably, coordinates at (0, 0) indicate missing or erroneous location data.
