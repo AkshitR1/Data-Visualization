@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Match Visualizations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header ul li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .main-content {
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .main-content h1 {
+            text-align: center;
+            color: #333;
+        }
+        .graph {
+            margin: 20px 0;
+        }
+        .graph img {
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .graph h2 {
+            color: #444;
+        }
+        .graph p {
+            color: #666;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Cricket Match Visualizations</h1>
+        </div>
+    </header>
+    <div class="container">
+        <div class="main-content">
+            <h1>Insights from Cricket Matches</h1>
+
+            <div class="graph">
+                <h2>Scatter Plot of Target Runs vs Result Margin</h2>
+                <h4>This scatter plot shows the relationship between the target runs and the result margin of the matches, categorized by the result of the match.</h4>
+                <img src="images/scatter_plot.png" alt="Scatter Plot of Target Runs vs Result Margin">
+            </div>
+
+            <div class="graph">
+                <h2>Target Runs vs Result Margin</h2>
+                <h4>This graph showcases the relationship between target runs and result margin, with different colors representing the result of the match.</h4>
+                <img src="images/sns_scatter_plot.png" alt="Target Runs vs Result Margin">
+            </div>
+
+            <div class="graph">
+                <h2>Histogram of Target Runs by Season and Toss Decision</h2>
+                <h4>This histogram represents the distribution of target runs across different seasons, categorized by the toss decision.</h4>
+                <img src="images/histogram_plot.png" alt="Histogram of Target Runs by Season and Toss Decision">
+            </div>
+
+            <div class="graph">
+                <h2>Player of the Match Count </h2>
+                <h4>Number of times players won the player of the match award and also won the match</h4>
+                <img src="images/count_plot.png" alt="Player of the Match Count by Winner">
+            </div>
+
+            <div class="graph">
+                <h2>Histogram of Super Over Matches by Season</h2>
+                <h4>This histogram highlights the frequency of matches that went into a super over each season.</h4>
+                <img src="images/super_over_histogram.png" alt="Histogram of Super Over Matches by Season">
+            </div>
+
+            <div class="graph">
+                <h2>Win Count 2024</h2>
+                <img src="images/winner_season_countplot.png" alt="Winner Count by Season">
+            </div>
+
+            <div class="graph">
+                <h2>Win Count for each team in Last Four Seasons</h2>
+                <h4>This plot shows the win count for each team in the last four seasons.</h4>
+                <img src="images/last_4_season_winner_countplot.png" alt="Winner Count in Last Four Seasons">
+            </div>
+
+            <div class="graph">
+                <h2>Virat Kohli Player of the Match Performance</h2>
+                <h4>Performance of Virat Kohli when he was awarded the player of the match and won the game.</h4>
+                <img src="images/virat_pom_scatterplot.png" alt="Virat Kohli Player of the Match Performance">
+            </div>
+
+            <div class="graph">
+                <h2>MS Dhoni Player of the Match Performance</h2>
+                <>Performance of MS Dhoni when he was awarded the player of the match and won the game.</h4>
+                <img src="images/dhoni_pom_scatterplot.png" alt="MS Dhoni Player of the Match Performance">
+            </div>
+
+            <div class="graph">
+                <h2>Virat Kohli's Performance when Chasing</h2>
+                <h4>Virat Kohli's performance when Royal Challengers Bangalore chose to field and won the game.</h4>
+                <img src="images/virat_pom_chasing_scatter.png" alt="Virat Kohli's Performance when Chasing">
+            </div>
+        </div>
+    </div>
+    <!-- <footer>
+        <h4>&copy; 2024 Cricket Match Visualizations. Akshit Rao.</h4>
+    </footer> -->
+</body>
+</html>
